@@ -1,0 +1,15 @@
+$primary-color: #8ABA5A;
+$accent-color: #3f740b;
+$secundary-color: #D7EDAC;
+$text-color: #201F1F;
+$font-family-titles: 'Economica', sans-serif;
+$font-family-text: 'Lexend', sans-serif;
+$font-family-text2: 'Open Sans', sans-serif;
+
+@mixin texto ($ffam, $fweight, $fsize, $fcolor){
+    font-family: $ffam;
+    font-weight: $fweight;
+    font-size: $fsize;
+    color: $fcolor;
+}
+

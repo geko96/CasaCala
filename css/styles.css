@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Header-Nav */
+.header {
+  background-image: url("/images/cover.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.header .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 88px;
+  height: 80px;
+}
+.header .nav a {
+  font-family: "Lexend", sans-serif;
+  color: #201F1F;
+  font-size: 12px;
+}
+.header .cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header .cover .cover-logo {
+  margin-top: 112px;
+  margin-bottom: 40px;
+}
+.header .cover .cover-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Lexend", sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  color: white;
+  gap: 16px;
+}
+.header .cover .cover-title .cover-slogan {
+  font-family: "Economica", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  color: white;
+  letter-spacing: 0.025em;
+}
+.header .cover .fa-light {
+  color: black;
+}
+
+/* Fin de Header-Nav */
+/* Info*/
+.container-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.container-info .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+}
+.container-info .info .info-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container-info .info .info-text .info-text-title {
+  font-family: "Economica", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #201F1F;
+  margin-bottom: 28px;
+}
+.container-info .info .info-text .info-text-p {
+  font-family: "Lexend", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #201F1F;
+  text-align: justify;
+}
+.container-info .info .info-text .info-text-p span {
+  display: flex;
+  margin: 18px 0;
+}
+.container-info .info-image {
+  width: 50%;
+  height: 100vh;
+  background-image: url("/images/info_image.png");
+  background-size: cover;
+}/*# sourceMappingURL=styles.css.map */

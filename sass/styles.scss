@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@import "variables";
+
+/* Header-Nav */
+.header {
+    background-image: url("/images/cover.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 88px;
+        height: 80px;
+
+        a {
+            font-family: $font-family-text;
+            color: $text-color;
+            font-size: 12px;
+        }
+    }
+
+    .cover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .cover-logo {
+            margin-top: 112px;
+            margin-bottom: 40px;
+        }
+
+        .cover-title {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            @include texto ($font-family-text, 300, 28px, white);
+            gap: 16px;
+
+            .cover-slogan {
+                @include texto ($font-family-titles, 700, 72px, white);
+                letter-spacing: 0.025em;
+
+            }
+        }
+        .fa-light{
+            color: black;
+        }
+    }
+}
+
+/* Fin de Header-Nav */
+
+/* Info*/
+.container-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100vh;
+        
+        .info-text{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+      ;
+
+            .info-text-title {
+                @include texto ($font-family-titles, 700, 28px, $text-color);
+                margin-bottom: 28px;
+            }
+    
+            .info-text-p{
+                @include texto ($font-family-text, 300, 18px, $text-color);
+                text-align: justify;
+                span {
+                    display: flex;
+                    margin: 18px 0;
+                }
+            }
+        }
+    }
+    .info-image{
+        width: 50%;
+        height: 100vh;
+        background-image: url("/images/info_image.png");
+        background-size: cover;        
+    }
+}
