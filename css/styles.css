@@ -140,7 +140,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 100vh;
 }
 .container-phase .phase-title {
@@ -151,8 +150,11 @@
   margin-bottom: 100px;
 }
 .container-phase .container-phase-status {
+  width: 90%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .container-phase .container-phase-status .phase-status {
   display: flex;
@@ -208,4 +210,95 @@
   padding: 10px 25px;
 }
 
-/* Fin de Equipo *//*# sourceMappingURL=styles.css.map */
+/* Fin de Equipo */
+/* Galeria */
+.container-articles {
+  background-color: #D7EDAC;
+}
+.container-articles .pendiente {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "Economica", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #201F1F;
+}
+
+/* Fin de Galeria */
+/* Formulario */
+.container-form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #201F1F;
+}
+.container-form .form {
+  width: 612px;
+  text-align: center;
+}
+.container-form .form .form-title {
+  font-family: "Economica", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+  margin-bottom: 56px;
+}
+.container-form .form .input, .container-form .form .input-msg {
+  margin-bottom: 24px;
+  width: 612px;
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 15px;
+}
+.container-form .form .input-msg {
+  height: 166px;
+  resize: none;
+}
+.container-form .form .btn-send {
+  margin-top: 24px;
+  width: 196px;
+  height: 64px;
+  background: #8ABA5A;
+  border: none;
+  border-radius: 10px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+
+/* Fin de Formulario */
+/* Footer */
+.footer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #201F1F;
+}
+.footer .footer-img {
+  margin-top: 150px;
+  margin-bottom: 24px;
+}
+.footer .contact-info {
+  width: 250px;
+  background-color: #8ABA5A;
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  margin: 12px 0;
+}/*# sourceMappingURL=styles.css.map */
