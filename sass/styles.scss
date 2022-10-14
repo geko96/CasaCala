@@ -542,6 +542,25 @@
             margin-top: 30px !important;
         }
 
+        .gallery__image{
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        .gallery__row{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .gallery{
+            flex-direction: column !important;
+        }
+
+        .gallery__column1{
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
         .team {
             img{
                 width: 100%;
