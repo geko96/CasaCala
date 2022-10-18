@@ -121,8 +121,43 @@
     background-repeat: no-repeat;
     margin-top: 20px;
 
+}
 
+.container-proyecto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    max-width: 100% !important;
+}
 
+.hoverSection{
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    width: 20% !important;
+}
+
+.hoverSection:hover{
+    background-color: rgba(255, 255, 255, .7);
+    color: #8ABA5A;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.hoverSection {
+    padding-top: 25%;
+}
+
+.textRotated{
+    transform: rotate(90deg);
+    font-size: 4em;
+}
+
+.hover1{
+    width: 30% !important;
 }
 
 #planimetriaFinal{
