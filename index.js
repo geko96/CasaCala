@@ -26,3 +26,45 @@ document.addEventListener('click', function (e) {
           })
     }
 })
+
+
+
+/// click event listener on hoverSection class
+let section11 = document.getElementById('11');
+let section12 = document.getElementById('12');
+let section13 = document.getElementById('13');
+
+
+section11.addEventListener('click', function() {
+    Swal.fire({
+        html: `<img src="/images/cartilla.jpg" class='imgFull'>`,
+        showCloseButton: true,
+        showCancelButton: false,
+        showConfirmButton: false,
+        customClass: 'swal-wide',
+
+    })
+});
+
+section12.addEventListener('click', function() {
+    Swal.fire({
+        html: `<img src="/images/cartilla.jpg" class='imgFull'>`,
+        showCloseButton: true,
+        showCancelButton: false,
+        showConfirmButton: false,
+        customClass: 'swal-wide',
+
+    })
+});
+
+section13.addEventListener('click', function() {
+    Swal.fire({
+        html: `<img src="/images/cartilla.jpg" class='imgFull'>`,
+        showCloseButton: true,
+        showCancelButton: false,
+        showConfirmButton: false,
+        customClass: 'swal-wide',
+
+    })
+});
+
