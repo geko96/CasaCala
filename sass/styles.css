@@ -184,6 +184,33 @@
   overflow: hidden;
 }
 
+.specialRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 90% !important;
+  margin-left: 5% !important;
+  max-height: 20% !important;
+  overflow: hidden;
+}
+
+.specialImage {
+  width: 100% !important;
+  height: 50% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.specialThumb {
+  max-height: 30% !important;
+  overflow: hidden;
+}
+
 .gallery {
   display: flex;
   transition: 0.3s;
@@ -191,6 +218,9 @@
   overflow: hidden;
   align-items: stretch;
   justify-content: center;
+  height: -webkit-max-content !important;
+  height: -moz-max-content !important;
+  height: max-content !important;
 }
 .gallery .gallery__image {
   width: 100%;
